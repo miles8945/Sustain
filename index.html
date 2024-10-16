@@ -22,6 +22,47 @@
         margin-right: auto;
       }
 
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      #logo {
+        margin-right: 1rem;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      nav {
+        background-color: #008000;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline-block;
+      }
+
+      nav ul li a {
+        display: inline-block;
+        padding: 1rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        background-color: black;
+        color: #9ae39a;
+      }
+
       #content-wrapper {
         display: flex;
       }
@@ -44,50 +85,6 @@
       main {
         order: 2;
         flex: 4;
-      }
-
-      a {
-        color: #008000;
-      }
-
-      header {
-        position: relative;
-      }
-
-      #logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-
-      header h1, nav ul {
-        padding-left: 50px;
-      }
-
-      nav {
-        background-color: #008000;
-      }
-
-      nav ul {
-        list-style: none;
-        padding: 0;
-      }
-
-      nav ul li {
-        display: inline-block;
-      }
-
-      nav ul li a {
-        display: inline-block;
-        padding: 1rem;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-      }
-
-      nav ul li a:hover {
-        background-color: black;
-        color: #9ae39a;
       }
 
       main article img {
@@ -150,8 +147,8 @@
 
   <body>
     <header role="banner">
-      <h1>Sustainable Living by Jordan</h1>
       <img src="images/logo.png" width="42" height="100" alt="logo" id="logo">
+      <h1>Sustainable Living by Jordan</h1>
     </header>
 
     <nav role="navigation">
@@ -214,6 +211,7 @@
     </div>
   </body>
 </html>
+
 
 
 

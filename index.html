@@ -22,6 +22,30 @@
         margin-right: auto;
       }
 
+      #content-wrapper {
+        display: flex;
+      }
+
+      aside {
+        background-color: #ccc;
+        margin-right: 1rem;
+        padding: 0.5rem;
+        position: relative;
+        top: 20px;
+        order: 1;
+        flex: 1;
+      }
+
+      aside h2 {
+        margin-top: 0;
+        white-space: nowrap;
+      }
+
+      main {
+        order: 2;
+        flex: 4;
+      }
+
       a {
         color: #008000;
       }
@@ -139,6 +163,25 @@
     </nav>
 
     <div id="content-wrapper">
+      <aside>
+        <h2><abbr title="Environmental Protection Agency">EPA</abbr> Resources</h2>
+
+        <section>
+          <h3>Resources</h3>
+          <a href="https://www.epa.gov/sustainability/sustainability-resource-finder" target="_blank">Search for <abbr title="Environmental Protection Agency">EPA</abbr> sustainability programs, tools, and resources</a>
+        </section>
+
+        <section>
+          <h3>Infrastructure</h3>
+          <a href="https://www.epa.gov/sustainability/giwiz" target="_blank">Use the <abbr title="Environmental Protection Agency">EPA</abbr> Green Infrastructure Wizard</a>
+        </section>
+
+        <section>
+          <h3>Materials</h3>
+          <a href="https://www.epa.gov/sustainability/mwiz" target="_blank">Use the <abbr title="Environmental Protection Agency">EPA</abbr> Materials Management Wizard</a>
+        </section>
+      </aside>
+
       <main role="main">
         <article>
           <img src="images/oven.jpg" width="400" height="267" alt="Homemade brick oven">
@@ -168,28 +211,10 @@
           </div>
         </section>
       </main>
-
-      <aside>
-        <h2><abbr title="Environmental Protection Agency">EPA</abbr> Resources</h2>
-
-        <section>
-          <h3>Resources</h3>
-          <a href="https://www.epa.gov/sustainability/sustainability-resource-finder" target="_blank">Search for <abbr title="Environmental Protection Agency">EPA</abbr> sustainability programs, tools, and resources</a>
-        </section>
-
-        <section>
-          <h3>Infrastructure</h3>
-          <a href="https://www.epa.gov/sustainability/giwiz" target="_blank">Use the <abbr title="Environmental Protection Agency">EPA</abbr> Green Infrastructure Wizard</a>
-        </section>
-
-        <section>
-          <h3>Materials</h3>
-          <a href="https://www.epa.gov/sustainability/mwiz" target="_blank">Use the <abbr title="Environmental Protection Agency">EPA</abbr> Materials Management Wizard</a>
-        </section>
-      </aside>
     </div>
   </body>
 </html>
+
 
 
 

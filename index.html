@@ -73,6 +73,36 @@
         margin-bottom: 0.5rem;
         margin-right: 1rem;
       }
+
+      main section {
+        display: flex;
+      }
+
+      main section div {
+        background-color: #e7ffe7;
+        border: 1px solid #008000;
+        border-radius: 10px;
+        width: 100%;
+        margin-right: 1rem;
+        text-align: center;
+      }
+
+      main section div:last-child {
+        margin-right: 0;
+      }
+
+      main section div h2 {
+        background-color: #008000;
+        color: white;
+        margin-top: 0;
+        border-radius: 10px 10px 0 0;
+      }
+
+      main section div img {
+        border: 3px double #333;
+        display: block;
+        margin: 0 auto;
+      }
     </style>
   </head>
 
@@ -101,17 +131,23 @@
         </article>
 
         <section>
-          <h2>Rain Water</h2>
-          <a href="#"><img src="images/rain.jpg" width="200" height="133" alt="Rain water collector">
+          <div>
+            <h2>Rain Water</h2>
+            <a href="#"><img src="images/rain.jpg" width="200" height="133" alt="Rain water collector">
             <p>Reduce water bills</p></a>
+          </div>
 
-          <h2>Compost</h2>
-          <a href="#"><img src="images/compost.jpg" width="200" height="133" alt="Compost bin">
+          <div>
+            <h2>Compost</h2>
+            <a href="#"><img src="images/compost.jpg" width="200" height="133" alt="Compost bin">
             <p>Make and save money</p></a>
-          
-          <h2>Solar Panels</h2>
-          <a href="#"><img src="images/solar.jpg" width="200" height="133" alt="Rooftop solar panels">
+          </div>
+
+          <div>
+            <h2>Solar Panels</h2>
+            <a href="#"><img src="images/solar.jpg" width="200" height="133" alt="Rooftop solar panels">
             <p>Save money</p></a>
+          </div>
         </section>
       </main>
 
@@ -136,6 +172,7 @@
     </div>
   </body>
 </html>
+
 
 
 
